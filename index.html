@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;700&display=swap" rel="stylesheet">
+
+    <script type="text/javascript">
+		window.onload = function(){
+			document.querySelector(".menu-mobile").addEventListener("click", function(){
+				if(document.querySelector(".header-menu").style.display == 'flex') {
+					document.querySelector(".header-menu").style.display = 'none';
+				} else {
+					document.querySelector(".header-menu").style.display = 'flex';
+				}
+			});
+		};
+	</script>
+    <title>Motorola</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+                <div class="header-logo">
+                    <img src="assets/images/logo-marca.png" alt="Marca"/>
+                </div>
+                <nav>
+                    <div class="menu-mobile">
+                        <img src="/assets/images/menu.svg" alt="">
+                    </div>
+
+                    <div class="header-menu">
+                        <ul>
+                            <li><a href="" class="active">Menu 1</a></li>
+                            <li><a href="">Menu 2</a></li>
+                            <li><a href="">Menu 3</a></li>
+                            <li><a href="">Menu 4</a></li>
+                        </ul>
+                    </div>
+                </nav>
+        </div>
+    </header>
+    <section id="banner">
+        <div class="container">
+            <div class="banner-logo">
+                <img src="assets/images/image-banner.png" alt="banner"/>
+            </div>
+            <div class="banner-desc">
+                <h1><strong>moto</strong> g7</h1>
+                <h2>Potência e performance em todos os momentos</h2>
+                <a href="#">Confira</a>
+            </div>
+        </div>
+    </section>
+    <div class="faixa-meio">
+        <p>Um novo conceito de performance e elegância</p>
+    </div>
+    <section id="search">
+        <div class="container column">
+            <h1>Como podemos ajudar?</h1>
+            <div class="section-pesquisa">
+                <input type="text" name="search" placeholder="Ex. Celular"/>
+                <a href="#"><img src="assets/images/search.svg" width="20" heigth="20" alt="Pesquisar"></a>
+            </div>
+        </div>
+    </section>
+    <section id="content">
+        <div class="container">
+            <div class="promos">
+                <div class="promo"><img src="/assets/images/promos-image.png" alt=""></div>
+                <div class="promo"><img src="/assets/images/promos-image.png" alt=""></div>
+                <div class="promo"><img src="/assets/images/promos-image.png" alt=""></div>
+                 
+            </div>
+
+        </div>
+
+    </section>
+    
+
+    <footer>
+        Desenvolvido por Romário Alves com fins educacionais.
+    </footer>
+</body>
+</html>
